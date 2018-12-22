@@ -1,0 +1,91 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+/* writing */
+
+.row .text-left {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+
+/* Hero Image */
+
+.hero-image {
+  color: black;
+  opacity: 50%;
+  background-size: cover;
+  opacity: 10%;
+  height: 200px;
+  width: 100%;
+  background-image: url("CodingCard/UX-UIDesign.png");
+  margin: 0px !important;
+}
+.hero-image .text {
+  display: none;
+}
+
+.hero-text #h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+
+
+
+@media (max-width: 600px) {S
+  .hero-image .btn-primary {
+     text-align: center;
+   }
+  .hero-image {
+    background-size: auto;
+  }
+   .hero-image #text {
+     display: initial;
+   }
+   .hero-image #texts {
+    display: initial;
+  }
+   .hero-image .container {
+    display: none;
+  }
+  .hero-image .col-mg-4 {
+    display: none;
+  }
+  .hero-image .text-center {
+    display: none;
+  }
+ }
+
+.p {
+  font-size: 12px;
+}
+ .hero-image .container {
+  font-size: 30px;
+
+}
+
+
+ /* service tabs */
+.img-fluid {
+  box-shadow: 2px 2px 12px rgb(168, 168, 168);
+    border: 10px;
+    transition: 1s;
+}
+
+/* overlay words */
+
+.img-fluid:hover {
+  transform: scale(1.1,1.1);
+  border: none;
+}
+
+
+
+  /*!
+   * Copyright 2018 Trilogy Education
+   */
+
+
+
+

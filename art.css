@@ -1,0 +1,119 @@
+
+  /* writing */
+  
+  .row .text-left {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+  }
+  
+  /* Hero Image */
+  
+  .hero-image {
+    color: black;
+    opacity: 50%;
+    background-size: cover;
+    opacity: 10%;
+    height: 150px;
+    width: 100%;
+    background-image: url("CodingCard/art-header.png");
+    margin: 0px !important;
+  }
+  .hero-image .text {
+    display: none;
+  }
+  
+  .hero-text #h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+  }
+ 
+  
+  
+  
+  
+  @media (max-width: 600px) {S
+    .hero-image .btn-primary {
+       text-align: center;
+     }
+    .hero-image {
+      background-size: auto;
+    }
+     .hero-image #text {
+       display: initial;
+     }
+     .hero-image #texts {
+      display: initial;
+    }
+     .hero-image .container {
+      display: none;
+    }
+    .hero-image .col-mg-4 {
+      display: none;
+    }
+    .hero-image .text-center {
+      display: none;
+    }
+   }
+  
+  .p {
+    font-size: 12px;
+  }
+   .hero-image .container {
+    font-size: 30px;
+  
+  }
+  
+  div.gallery {
+    border: 3px solid #ccc;
+    overflow: hidden;
+    height: 200px;
+    margin: 5px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33.3%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  
+  
+  
+  
